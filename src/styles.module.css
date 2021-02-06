@@ -1,9 +1,29 @@
-/* add css module styles here (optional) */
+.ctContainer {
+  padding: 10px 0;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.ctItem {
+  padding: 0.5em 1em;
+  background: rgb(206, 206, 206);
+  color: rgb(93, 93, 93);
+  border: 1px solid rgb(107, 107, 107);
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.active {
+  background: rgb(84, 162, 226);
+  color: #FFF;
+  border: 1px solid rgb(23, 102, 177);
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.ctItem:focus {
+  border: 1px solid #000;
+}
+.ctItem.active:focus {
+  border: 2px solid rgb(23, 102, 177);
 }
