@@ -10,6 +10,9 @@
 npm install --save react-custom-toggler
 ```
 
+## Demo
+[Demo](https://r3s.github.io/react-custom-toggler/)
+
 ## Usage
 
 ```jsx
